@@ -7,10 +7,10 @@ import App from './App';
 import 'bulma/css/bulma.css';
 import './styles.scss';
 
-import { rootReducer } from './reducers'
+import { cartReducer } from './reducers/cartReducer'
 
 // Create Redux store to handle state and connect to rootReducer
-const store = createStore(rootReducer)
+const store = createStore(cartReducer)
 console.log(store.getState())
 
 const rootElement = document.getElementById('root');

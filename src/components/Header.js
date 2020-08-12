@@ -17,7 +17,7 @@ const Header = props => {
 const mapStateToProps = (state) => {
   // console.log(state)
   return {
-    car: state.cartReducer.car
+    car: state.car
   }
 }
 
